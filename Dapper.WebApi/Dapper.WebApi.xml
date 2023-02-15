@@ -1,0 +1,169 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Dapper.WebApi</name>
+    </assembly>
+    <members>
+        <member name="T:Dapper.WebApi.Controllers.ProductController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Dapper.WebApi.Controllers.ProductController.#ctor(Dapper.Application.Interfaces.IUnitOfWork)">
+            <summary>
+            
+            </summary>
+            <param name="unitOfWork"></param>
+        </member>
+        <member name="M:Dapper.WebApi.Controllers.ProductController.GetAll">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Dapper.WebApi.Controllers.ProductController.GetById(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Dapper.WebApi.Controllers.ProductController.Add(Dapper.Core.Entities.Product)">
+            <summary>
+            
+            </summary>
+            <param name="product"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Dapper.WebApi.Controllers.ProductController.Delete(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Dapper.WebApi.Controllers.ProductController.Update(Dapper.Core.Entities.Product)">
+            <summary>
+            
+            </summary>
+            <param name="product"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Dapper.WebApi.Controllers.ProductController.GetEmailData(Dapper.WebApi.ClientParams)">
+            <summary>
+            Get EmailData
+            </summary>
+            <param name="clientParams"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Dapper.WebApi.Controllers.WeatherForecastController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Dapper.WebApi.Controllers.WeatherForecastController.#ctor(Microsoft.Extensions.Logging.ILogger{Dapper.WebApi.Controllers.WeatherForecastController})">
+            <summary>
+            
+            </summary>
+            <param name="logger"></param>
+        </member>
+        <member name="M:Dapper.WebApi.Controllers.WeatherForecastController.Get">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Dapper.WebApi.ClientParams">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Dapper.WebApi.ClientParams.emailText">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Dapper.WebApi.Models.ClientRespponse">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Dapper.WebApi.Models.ClientRespponse.emailWithServerTime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Dapper.WebApi.Program">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Dapper.WebApi.Program.Main(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:Dapper.WebApi.Program.CreateHostBuilder(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Dapper.WebApi.Startup">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Dapper.WebApi.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="P:Dapper.WebApi.Startup.Configuration">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Dapper.WebApi.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:Dapper.WebApi.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+        <member name="T:Dapper.WebApi.WeatherForecast">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Dapper.WebApi.WeatherForecast.Date">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Dapper.WebApi.WeatherForecast.TemperatureC">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Dapper.WebApi.WeatherForecast.TemperatureF">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Dapper.WebApi.WeatherForecast.Summary">
+            <summary>
+            
+            </summary>
+        </member>
+    </members>
+</doc>
